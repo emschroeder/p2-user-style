@@ -1,0 +1,82 @@
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 4em;
+	font-family: 'Lobster', cursive;
+	margin-bottom: 0px;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+
+
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.color-1 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background-color: #0982B5;
+}
+
+.color-2 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background-color: #0CB0F5;
+}
+
+.color-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background-color: black;
+}
+
+.pattern-1 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background: url('../img/ricepaper2.png');
+}
+
+
+a {
+	color: #0CB0F5;
+	text-decoration: none;
+}
+
+a:hover {
+
+color: #0982B5;
+text-decoration: none;
+
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
